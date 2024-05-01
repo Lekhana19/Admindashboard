@@ -1,13 +1,12 @@
 .student-list-container {
     padding: 20px;
-    margin-left: 240px; /* Adjust based on your sidebar width */
     background-color: #f9f9f9; /* Background color for the container */
   }
   
   .controls {
     display: flex;
     flex-direction: row; /* Align controls in a row */
-    align-items: center;
+    align-items: baseline;
     gap: 10px; /* Space between controls */
     margin-bottom: 20px; /* Space below the control section */
   }

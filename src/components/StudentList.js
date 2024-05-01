@@ -27,11 +27,6 @@ const StudentList = () => {
     setSelectedCourse(event.target.value);
   };
 
-  const handleExport = () => {
-    // Implement export functionality here
-    console.log('Exporting student list...');
-  };
-
   const handlePrint = () => {
     window.print();
   };
@@ -46,7 +41,6 @@ const StudentList = () => {
             <option key={course.id} value={course.id}>{course.name}</option>
           ))}
         </select>
-        <button onClick={handleExport} className="export-btn">Export</button>
         <button onClick={handlePrint} className="print-btn">Print</button>
       </div>
       {selectedCourse && (

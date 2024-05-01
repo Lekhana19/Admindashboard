@@ -30,26 +30,26 @@ const Sidebar = () => {
       <List>
         <ListItem disablePadding>
           <ListItemButton component={Link} to="/">
-            <ListItemIcon>
+            <ListItemIcon style={{ color: "#F7F7F7" }}>
               <DashboardIcon />
             </ListItemIcon>
-            <ListItemText primary="Dashboard" />
+            <ListItemText primary="Dashboard" style={{ color: "#F7F7F7" }}/>
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
           <ListItemButton component={Link} to="/courses">
-            <ListItemIcon>
+            <ListItemIcon style={{ color: "#F7F7F7" }}>
               <SchoolIcon />
             </ListItemIcon>
-            <ListItemText primary="Courses" />
+            <ListItemText primary="Courses" style={{ color: "#F7F7F7" }}/>
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
           <ListItemButton component={Link} to="/students">
-            <ListItemIcon>
-              <PeopleIcon />
+            <ListItemIcon style={{ color: "#F7F7F7" }}>
+              <PeopleIcon/>
             </ListItemIcon>
-            <ListItemText primary="Students" />
+            <ListItemText primary="Students" style={{ color: "#F7F7F7" }}/>
           </ListItemButton>
         </ListItem>
       </List>

@@ -22,15 +22,15 @@ const Dashboard = () => {
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={4}>
           <Link to="/courses" style={{ textDecoration: 'none' }}>
-            <Card sx={{ height: '100%', marginBottom: '20px' }}>
+            <Card sx={{ height: '100%', marginBottom: '20px', background: '#5856d6' }}>
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div" sx={{
-                    color: '#555' // Additional style for typography
+                    color: '#f7f7f7' // Additional style for typography
                   }}>
                     View Courses
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="#f7f7f7">
                     Manage and view all courses by semester and faculty.
                   </Typography>
                 </CardContent>
@@ -40,15 +40,15 @@ const Dashboard = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Link to="/assign-course" style={{ textDecoration: 'none' }}>
-            <Card sx={{ height: '100%', marginBottom: '20px' }}>
+            <Card sx={{ height: '100%', marginBottom: '20px', background: '#f9b115' }}>
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div" sx={{
-                    color: '#555' // Additional style for typography
+                    color: '#f7f7f7' // Additional style for typography
                   }}>
                     Assign Courses
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="#f7f7f7">
                     Assign courses to faculty for upcoming semesters.
                   </Typography>
                 </CardContent>
@@ -58,15 +58,15 @@ const Dashboard = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Link to="/students" style={{ textDecoration: 'none' }}>
-            <Card sx={{ height: '100%', marginBottom: '20px' }}>
+            <Card sx={{ height: '100%', marginBottom: '20px', background: '#e55353' }}>
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div" sx={{
-                    color: '#555' // Additional style for typography
+                    color: '#f7f7f7' // Additional style for typography
                   }}>
                     Student Lists
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="#f7f7f7">
                     View list of students enrolled in each course.
                   </Typography>
                 </CardContent>
